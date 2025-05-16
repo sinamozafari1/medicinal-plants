@@ -8,40 +8,16 @@
       name="description"
       content="گیاهان دارویی با کیفیت عالی برای سلامتی و تندرستی"
     />
-    
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script>
-        
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              primary: "#4CAF50",
-              secondary: "#8BC34A",
-              accent: "#FF9800",
-              dark: "#2E7D32",
-              light: "#C8E6C9",
-            },
-            fontFamily: {
-              sans: ['"Vazir"', "sans-serif"],
-              serif: ['"Vazir"', "serif"],
-            },
-          },
-        },
-      };
-    </script>
-    <link
-      href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="styles.css" rel="stylesheet" />
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
   </head>
-  <body class="font-sans bg-gray-50" style="font-family: 'Vazir';">
+  <body class="bg-gray-50 font-vazir">
     <!-- Header with Navigation -->
     <header class="bg-white shadow-md">
       <div class="container mx-auto px-4">
@@ -92,7 +68,7 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="bg-primary text-white py-16">
+    <section class="bg-gradient-to-b from-60% from-primary text-white py-16">
       <div class="container mx-auto px-4">
         <div class="max-w-2xl">
           <h2 class="text-4xl md:text-5xl font-bold mb-4">قدرت شفابخش طبیعت</h2>
@@ -535,6 +511,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="tailwindcss.config"></script>
 
     <script>
       // Product data
